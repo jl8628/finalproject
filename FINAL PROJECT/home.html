@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="css3/ST2style.css" />
+
+    <script>
+      function setActiveLink(event) {
+        var links = document.querySelectorAll("nb");
+        links.forEach(function (link) {
+          link.classList.remove("active");
+        });
+        event.target.classList.add("active");
+      }
+      var links = document.querySelectorAll("nb");
+      links.forEach(function (link) {
+        link.addEventListener("click", setActiveLink);
+      });
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="home.html" class="nb"
+        ><img
+          src="pics/faaadb509bb3eef993d5cd7ae7a422b4.jpg"
+          alt="Logo"
+          class="logo"
+      /></a>
+      <a href="Gallery.html" class="nb">GALLERY</a>
+      <a href="SHOP.html" class="nb">SHOP</a>
+      <a href="UserProfile.html" class="nb">USER PROFILE</a>
+      <a href="feedback.html" class="nb">FEEDBACK</a>
+      <a href="sitemap.html" class="nb">MAP</a>
+      <a href="team.html" class="nb">TEAMS</a>
+      <div class="dropdown-container">
+        <a href="#PAGEEDITOR" class="one">PAGE EDITOR</a>
+        <ul class="dropdown">
+          <li><a href="pageEditor_ST1.html">Student 1</a></li>
+          <li><a href="pageEditor_ST2.html">Student 2</a></li>
+          <li><a href="pageEditor_ST3.html">Student 3</a></li>
+          <li><a href="PageEditor4.html">Student 4</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-container">
+        <a href="#CONTENT" class="one">CONTENT</a>
+        <ul class="dropdown">
+          <li><a href="contentpage1.html">Content 1</a></li>
+          <li><a href="contentpage2.html">Content 2</a></li>
+          <li><a href="contentpage3.html">Content 3</a></li>
+          <li><a href="Contentpage4.html">Content 4</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="qty">
+      <h1>QUALITY EDUCATION</h1>
+      <p>
+        ENSURE INCLUSIVE AND EQUITABLE QUALITY EDUCATION AND PROMOTE LIFELONG
+        LEARNING OPPORTUNITIES
+      </p>
+    </div>
+    <h2 id="HOME"></h2>
+    <div class="container">
+      <video
+        controls
+        autoplay
+        src="pics/Public School. Our School. TVC (30sec).mp4"
+        type=" mp4"
+      ></video>
+    </div>
+    <dd class="homepage">
+      Quality Education is part of one of the 17 United Nations Sustainable
+      Development Goals (SDGs). <br />
+      It aims to ensure inclusive and equitable quality education and promote
+      lifelong learning opportunities for all. This goal recognizes education as
+      a fundamental human right and a key driver for sustainable development. It
+      emphasizes the importance of providing access to education, improving its
+      quality, and fostering lifelong learning opportunities for people of all
+      ages.
+    </dd>
+    <br /><br />
+  </body>
+</html>

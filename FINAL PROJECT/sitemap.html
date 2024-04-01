@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css3/style.css" />
+
+    <title>Sitemap</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.993);
+      }
+      svg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      g:hover polyline,
+      g:hover line {
+        fill: none;
+        stroke-width: 1.5;
+        stroke: black;
+      }
+      g:hover g text,
+      g:hover text {
+        font-weight: bold;
+      }
+      g:hover polygon,
+      g:hover rect,
+      g:focus polygon,
+      g:focus rect {
+        fill: hsla(24, 20%, 50%, 0.3);
+        stroke: black;
+        stroke-width: 2;
+      }
+      h1 {
+        text-align: center;
+        padding: 10px;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="home.html" class="nb"
+        ><img
+          src="pics/faaadb509bb3eef993d5cd7ae7a422b4.jpg"
+          alt="Logo"
+          class="logo"
+      /></a>
+      <a href="Gallery.html" class="nb">GALLERY</a>
+      <a href="SHOP.html" class="nb">SHOP</a>
+      <a href="UserProfile.html" class="nb">USER PROFILE</a>
+      <a href="feedback.html" class="nb">FEEDBACK</a>
+      <a href="sitemap.html" class="nb">MAP</a>
+      <a href="team.html" class="nb">TEAMS</a>
+      <div class="dropdown-container">
+        <a href="#PAGEEDITOR" class="one">PAGE EDITOR</a>
+        <ul class="dropdown">
+          <li><a href="pageEditor_ST1.html">Student 1</a></li>
+          <li><a href="pageEditor_ST2.html">Student 2</a></li>
+          <li><a href="pageEditor_ST3.html">Student 3</a></li>
+          <li><a href="PageEditor4.html">Student 4</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-container">
+        <a href="#CONTENT" class="one">CONTENT</a>
+        <ul class="dropdown">
+          <li><a href="contentpage1.html">Content 1</a></li>
+          <li><a href="contentpage2.html">Content 2</a></li>
+          <li><a href="contentpage3.html">Content 3</a></li>
+          <li><a href="Contentpage4.html">Content 4</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Visual Sitemap</h1>
+
+    <svg id="svgJS" height="500" width="1300">
+      <!-- Home Page -->
+      <g id="home" tabindex="0">
+        <rect
+          x="470"
+          y="30"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="530"
+          y="60"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Home Page
+        </text>
+        <line
+          x1="530"
+          y1="70"
+          x2="530"
+          y2="105"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="155"
+          y2="115"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="305"
+          y2="115"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="440"
+          y2="110"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="589"
+          y2="110"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="720"
+          y2="115"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="860"
+          y2="117"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+        <line
+          x1="530"
+          y1="70"
+          x2="998"
+          y2="117"
+          stroke="black"
+          stroke-width="1.5"
+          marker-end="url(#arrowhead)"
+        />
+      </g>
+      <!-- Gallery Page -->
+      <g id="gallery" tabindex="0">
+        <rect
+          x="30"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="90"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Gallery Page
+        </text>
+      </g>
+      <!-- Shop Page -->
+      <g id="shop" tabindex="0">
+        <rect
+          x="170"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="230"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Shop Page
+        </text>
+      </g>
+      <!-- User Profile Page -->
+      <g id="userProfile" tabindex="0">
+        <rect
+          x="310"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="370"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          User Profile Page
+        </text>
+      </g>
+      <!-- Feedback Page -->
+      <g id="feedback" tabindex="0">
+        <rect
+          x="450"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="510"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Feedback Page
+        </text>
+      </g>
+      <!-- Sitemap Page -->
+      <g id="sitemap" tabindex="0">
+        <rect
+          x="590"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="650"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Sitemap Page
+        </text>
+      </g>
+      <!-- Teams Page -->
+      <g id="teams" tabindex="0">
+        <rect
+          x="730"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="790"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Teams Page
+        </text>
+      </g>
+      <!-- Content Page -->
+      <g id="content" tabindex="0">
+        <rect
+          x="870"
+          y="120"
+          height="40"
+          width="120"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="930"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Content Page
+        </text>
+      </g>
+      <!-- Page Editor Page -->
+      <g id="pageEditor" tabindex="0">
+        <rect
+          x="1010"
+          y="120"
+          height="40"
+          width="170"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="2.5"
+        />
+        <text
+          fill="#000"
+          font-size="14"
+          x="1095"
+          y="150"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Page Editor Page
+        </text>
+      </g>
+      <!-- Sub Pages under Content Page -->
+      <g id="contentPage1" tabindex="0">
+        <rect
+          x="885"
+          y="170"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="925"
+          y="190"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Content Page 1
+        </text>
+      </g>
+      <!-- Lines connecting Content sub-pages -->
+      <line
+        x1="930"
+        y1="160"
+        x2="930"
+        y2="170"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+      <g id="contentPage2" tabindex="0">
+        <rect
+          x="885"
+          y="220"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="925"
+          y="240"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Content Page 2
+        </text>
+      </g>
+      <line
+        x1="930"
+        y1="200"
+        x2="930"
+        y2="208"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+
+      <g id="contentPage3" tabindex="0">
+        <rect
+          x="885"
+          y="270"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="925"
+          y="290"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Content Page 3
+        </text>
+      </g>
+      <line
+        x1="930"
+        y1="250"
+        x2="930"
+        y2="255"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+
+      <g id="contentPage4" tabindex="0">
+        <rect
+          x="885"
+          y="320"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="925"
+          y="340"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Content Page 4
+        </text>
+      </g>
+      <line
+        x1="930"
+        y1="300"
+        x2="930"
+        y2="308"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+
+      <!-- Sub Pages under Page Editor Page -->
+      <g id="pageEditor1" tabindex="0">
+        <rect
+          x="1010"
+          y="170"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="1050"
+          y="190"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Page Editor 1
+        </text>
+      </g>
+      <!-- Lines connecting Page Editor sub-pages -->
+      <line
+        x1="1055"
+        y1="160"
+        x2="1055"
+        y2="170"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+
+      <g id="pageEditor2" tabindex="0">
+        <rect
+          x="1010"
+          y="220"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="1050"
+          y="240"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Page Editor 2
+        </text>
+      </g>
+      <line
+        x1="1055"
+        y1="200"
+        x2="1055"
+        y2="215"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+
+      <g id="pageEditor3" tabindex="0">
+        <rect
+          x="1010"
+          y="270"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="1050"
+          y="290"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Page Editor 3
+        </text>
+      </g>
+      <line
+        x1="1055"
+        y1="250"
+        x2="1055"
+        y2="265"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+
+      <g id="pageEditor4" tabindex="0">
+        <rect
+          x="1010"
+          y="320"
+          height="30"
+          width="95"
+          stroke="purple"
+          fill="yellow"
+          stroke-width="1.5"
+        />
+        <text
+          fill="#000"
+          font-size="12"
+          x="1050"
+          y="340"
+          font-family="Arial"
+          text-anchor="middle"
+        >
+          Page Editor 4
+        </text>
+      </g>
+      <line
+        x1="1055"
+        y1="300"
+        x2="1055"
+        y2="310"
+        stroke="black"
+        stroke-width="1.5"
+        marker-end="url(#arrowhead)"
+      />
+    </svg>
+
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <marker
+          id="arrowhead"
+          markerWidth="10"
+          markerHeight="7"
+          refX="0"
+          refY="3.5"
+          orient="auto"
+        >
+          <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+        </marker>
+      </defs>
+    </svg>
+
+    <script>
+      // Add event listeners for navigation
+      document.getElementById("gallery").addEventListener("click", function () {
+        window.location.href = "GALLERY.html";
+      });
+      document.getElementById("shop").addEventListener("click", function () {
+        window.location.href = "SHOP.html";
+      });
+      document
+        .getElementById("userProfile")
+        .addEventListener("click", function () {
+          window.location.href = "UserProfile.html";
+        });
+      document
+        .getElementById("feedback")
+        .addEventListener("click", function () {
+          window.location.href = "feedback.html";
+        });
+      document.getElementById("sitemap").addEventListener("click", function () {
+        window.location.href = "sitemap.html";
+      });
+      document.getElementById("teams").addEventListener("click", function () {
+        window.location.href = "team.html";
+      });
+      document.getElementById("content").addEventListener("click", function () {
+        window.location.href = "sitemap.html";
+      });
+      document
+        .getElementById("pageEditor")
+        .addEventListener("click", function () {
+          window.location.href = "sitemap.html";
+        });
+      document.getElementById("home").addEventListener("click", function () {
+        window.location.href = "home.html";
+      });
+      document
+        .getElementById("contentPage1")
+        .addEventListener("click", function () {
+          window.location.href = "contentpage1.html";
+        });
+      document
+        .getElementById("contentPage2")
+        .addEventListener("click", function () {
+          window.location.href = "contentpage2.html";
+        });
+      document
+        .getElementById("contentPage3")
+        .addEventListener("click", function () {
+          window.location.href = "contentpage3.html";
+        });
+      document
+        .getElementById("contentPage4")
+        .addEventListener("click", function () {
+          window.location.href = "Contentpage4.html";
+        });
+      document
+        .getElementById("pageEditor1")
+        .addEventListener("click", function () {
+          window.location.href = "pageEditor_ST1.html";
+        });
+      document
+        .getElementById("pageEditor2")
+        .addEventListener("click", function () {
+          window.location.href = "pageEditor_ST2.html";
+        });
+      document
+        .getElementById("pageEditor3")
+        .addEventListener("click", function () {
+          window.location.href = "pageEditor_ST3.html";
+        });
+      document
+        .getElementById("pageEditor4")
+        .addEventListener("click", function () {
+          window.location.href = "pageEditor4.html";
+        });
+    </script>
+  </body>
+</html>

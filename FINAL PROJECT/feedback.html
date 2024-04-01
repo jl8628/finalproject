@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>feedback</title>
+    <link rel="stylesheet" href="css3/ST2style.css" />
+
+    <script>
+      function checkEmail(form) {
+        if (!emailPattern.test(emailValue)) {
+          alert("Please enter a valid email address");
+          event.preventDefault();
+          return;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <a href="home.html" class="nb"
+        ><img
+          src="pics/faaadb509bb3eef993d5cd7ae7a422b4.jpg"
+          alt="Logo"
+          class="logo"
+      /></a>
+      <a href="Gallery.html" class="nb">GALLERY</a>
+      <a href="SHOP.html" class="nb">SHOP</a>
+      <a href="UserProfile.html" class="nb">USER PROFILE</a>
+      <a href="feedback.html" class="nb">FEEDBACK</a>
+      <a href="sitemap.html" class="nb">MAP</a>
+      <a href="team.html" class="nb">TEAMS</a>
+      <div class="dropdown-container">
+        <a href="#PAGEEDITOR" class="one">PAGE EDITOR</a>
+        <ul class="dropdown">
+          <li><a href="pageEditor_ST1.html">Student 1</a></li>
+          <li><a href="pageEditor_ST2.html">Student 2</a></li>
+          <li><a href="pageEditor_ST3.html">Student 3</a></li>
+          <li><a href="PageEditor4.html">Student 4</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-container">
+        <a href="#CONTENT" class="one">CONTENT</a>
+        <ul class="dropdown">
+          <li><a href="contentpage1.html">Content 1</a></li>
+          <li><a href="contentpage2.html">Content 2</a></li>
+          <li><a href="contentpage3.html">Content 3</a></li>
+          <li><a href="Contentpage4.html">Content 4</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="feed">
+      <form
+        action="mailto:w1989031@westminster.ac.uk"
+        method="post"
+        enctype="text/plain"
+      >
+        <fieldset>
+          <h1>Feedback Form</h1>
+          <h3>Required Fields *</h3>
+          <label for="name">*Enter your name: </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="box"
+            placeholder="Enter names here"
+            required
+          /><br /><br />
+          <label for="email">*Enter your email</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="box"
+            placeholder="Enter email here"
+            required
+          /><br /><br />
+          <label for="name">Was this your first time visiting? </label><br />
+          <label for="yes">Yes</label
+          ><input type="radio" name="delivery" id="yes" value="yes" />
+          <label for="yes">No</label
+          ><input type="radio" name="delivery" id="no" value="no" /><br /><br />
+          <label for="name"
+            >Was this website informative and easy to navigate through? </label
+          ><br />
+          <label for="yes">Yes</label
+          ><input type="radio" name="delivery" id="yes" value="yes" />
+          <label for="no">No</label
+          ><input type="radio" name="delivery" id="no" value="no" /><br /><br />
+          <label for="name"
+            >*If "No", suggest any improvements for the future: </label
+          ><br />
+          <textarea
+            name="name"
+            id="name"
+            class="box"
+            placeholder="Add your message here..."
+          ></textarea
+          ><br /><br />
+          <label for="name"
+            >How satisfied are you with our services? Choose from 0 to 10, with
+            1 being "Not satisfied at all!" and 10 being "Extremely satisifed!" </label
+          ><br />
+          <label for="1">1</label
+          ><input type="radio" name="delivery" id="1" value="1" />
+          <label for="2">2</label
+          ><input type="radio" name="delivery" id="2" value="2" />
+          <label for="3">3</label
+          ><input type="radio" name="delivery" id="3" value="3" />
+          <label for="4">4</label
+          ><input type="radio" name="delivery" id="4" value="4" />
+          <label for="5">5</label
+          ><input type="radio" name="delivery" id="5" value="5" />
+          <label for="6">6</label
+          ><input type="radio" name="delivery" id="6" value="6" />
+          <label for="7">7</label
+          ><input type="radio" name="delivery" id="7" value="7" />
+          <label for="8">8</label
+          ><input type="radio" name="delivery" id="8" value="8" />
+          <label for="9">9</label
+          ><input type="radio" name="delivery" id="9" value="9" />
+          <label for="10">10</label
+          ><input type="radio" name="delivery" id="10" value="10" /><br /><br />
+          <label for="name">Would you recommend your services? </label><br />
+          <label for="yes">Yes</label>
+          <input type="radio" name="delivery" id="yes" value="yes" />
+          <label for="no">No</label
+          ><input type="radio" name="delivery" id="no" value="no" /><br /><br />
+
+          <label for="name"
+            >*Would you like to receive updates about the website and any
+            offers? </label
+          ><br />
+          <select name="choice" id="choice" class="box">
+            <option value="email">Yes, by email</option>
+            <option value="phone">Yes, by phone</option>
+            <option value="post">Yes, by post</option>
+            <option value="No">No</option></select
+          ><br /><br />
+
+          <label for="name"
+            >Do you have any additional questions or requests? </label
+          ><br />
+          <textarea
+            name="name"
+            id="name"
+            placeholder="Add your message here..."
+            class="box"
+          ></textarea
+          ><br /><br />
+
+          <input type="submit" name="button" value="Submit" id="submit" />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
