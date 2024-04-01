@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -70,35 +70,46 @@
           <label for="email">*Enter your email</label>
           <input
             type="text"
-            name="name"
-            id="name"
+            name="email"
+            id="email"
             class="box"
             placeholder="Enter email here"
             required
           /><br /><br />
-          <label for="name">Was this your first time visiting? </label><br />
-          <label for="yes">Yes</label
-          ><input type="radio" name="delivery" id="yes" value="yes" />
-          <label for="yes">No</label
-          ><input type="radio" name="delivery" id="no" value="no" /><br /><br />
-          <label for="name"
+          <label for="question1">Was this your first time visiting? </label
+          ><br />
+          <label for="question2">Yes</label
+          ><input type="radio" name="delivery" id="question1" value="yes" />
+          <label for="question2">No</label
+          ><input
+            type="radio"
+            name="delivery"
+            id="question2"
+            value="no"
+          /><br /><br />
+          <label for="question3"
             >Was this website informative and easy to navigate through? </label
           ><br />
-          <label for="yes">Yes</label
-          ><input type="radio" name="delivery" id="yes" value="yes" />
-          <label for="no">No</label
-          ><input type="radio" name="delivery" id="no" value="no" /><br /><br />
-          <label for="name"
+          <label for="question4">Yes</label
+          ><input type="radio" name="delivery" id="question3" value="yes" />
+          <label for="question4">No</label
+          ><input
+            type="radio"
+            name="delivery"
+            id="question4"
+            value="no"
+          /><br /><br />
+          <label for="future"
             >*If "No", suggest any improvements for the future: </label
           ><br />
           <textarea
             name="name"
-            id="name"
+            id="future"
             class="box"
             placeholder="Add your message here..."
           ></textarea
           ><br /><br />
-          <label for="name"
+          <label
             >How satisfied are you with our services? Choose from 0 to 10, with
             1 being "Not satisfied at all!" and 10 being "Extremely satisifed!" </label
           ><br />
@@ -122,13 +133,18 @@
           ><input type="radio" name="delivery" id="9" value="9" />
           <label for="10">10</label
           ><input type="radio" name="delivery" id="10" value="10" /><br /><br />
-          <label for="name">Would you recommend your services? </label><br />
-          <label for="yes">Yes</label>
-          <input type="radio" name="delivery" id="yes" value="yes" />
-          <label for="no">No</label
-          ><input type="radio" name="delivery" id="no" value="no" /><br /><br />
+          <label>Would you recommend your services? </label><br />
+          <label for="question7">Yes</label>
+          <input type="radio" name="delivery" id="question7" value="yes" />
+          <label for="noyes">No</label
+          ><input
+            type="radio"
+            name="delivery"
+            id="noyes"
+            value="no"
+          /><br /><br />
 
-          <label for="name"
+          <label for="choice"
             >*Would you like to receive updates about the website and any
             offers? </label
           ><br />
@@ -139,12 +155,12 @@
             <option value="No">No</option></select
           ><br /><br />
 
-          <label for="name"
+          <label for="question8"
             >Do you have any additional questions or requests? </label
           ><br />
           <textarea
             name="name"
-            id="name"
+            id="question8"
             placeholder="Add your message here..."
             class="box"
           ></textarea

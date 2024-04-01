@@ -1,221 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css3/ST3Profile.css">
+    <link rel="stylesheet" href="css3/ST3Profile.css" />
     <title>WEB DESIGN</title>
-    <style>
-       ;
-    </style>
-</head>
+  </head>
 
+  <body>
+    <nav>
+      <a href="home.html" class="nb"
+        ><img
+          src="pics/faaadb509bb3eef993d5cd7ae7a422b4.jpg"
+          alt="Logo"
+          class="logo"
+      /></a>
+      <a href="Gallery.html" class="nb">GALLERY</a>
+      <a href="SHOP.html" class="nb">SHOP</a>
+      <a href="UserProfile.html" class="nb">USER PROFILE</a>
+      <a href="feedback.html" class="nb">FEEDBACK</a>
+      <a href="sitemap.html" class="nb">MAP</a>
+      <a href="team.html" class="nb">TEAMS</a>
+      <div class="dropdown-container">
+        <a href="#PAGEEDITOR" class="one">PAGE EDITOR</a>
+        <ul class="dropdown">
+          <li><a href="pageEditor_ST1.html">Student 1</a></li>
+          <li><a href="pageEditor_ST2.html">Student 2</a></li>
+          <li><a href="pageEditor_ST3.html">Student 3</a></li>
+          <li><a href="PageEditor4.html">Student 4</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-container">
+        <a href="#CONTENT" class="one">CONTENT</a>
+        <ul class="dropdown">
+          <li><a href="contentpage1.html">Content 1</a></li>
+          <li><a href="contentpage2.html">Content 2</a></li>
+          <li><a href="contentpage3.html">Content 3</a></li>
+          <li><a href="Contentpage4.html">Content 4</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-      <nav>
-        <a href="home.html" class="nb"
-          ><img src="pics/faaadb509bb3eef993d5cd7ae7a422b4.jpg" alt="Logo" class="logo"
-        /></a>
-        <a href="Gallery.html" class="nb">GALLERY</a>
-        <a href="SHOP.html" class="nb">SHOP</a>
-        <a href="UserProfile.html" class="nb">USER PROFILE</a>
-        <a href="feedback.html" class="nb">FEEDBACK</a>
-        <a href="sitemap.html" class="nb">MAP</a>
-        <a href="team.html" class="nb">TEAMS</a>
-        <div class="dropdown-container">
-          <a href="#PAGEEDITOR" class="one">PAGE EDITOR</a>
-          <ul class="dropdown">
-            <li><a href="pageEditor_ST1.html">Student 1</a></li>
-            <li><a href="pageEditor_ST2.html">Student 2</a></li>
-            <li><a href="pageEditor_ST3.html">Student 3</a></li>
-            <li><a href="PageEditor4.html">Student 4</a></li>
-          </ul>
-        </div>
-        <div class="dropdown-container">
-          <a href="#CONTENT" class="one">CONTENT</a>
-          <ul class="dropdown">
-            <li><a href="contentpage1.html">Content 1</a></li>
-            <li><a href="contentpage2.html">Content 2</a></li>
-            <li><a href="contentpage3.html">Content 3</a></li>
-            <li><a href="Contentpage4.html">Content 4</a></li>
-          </ul>
-        </div>
-      </nav>
-
-<body>
     <div class="container1">
-        <button name="start">Start</button>
-        <form class="box1" id="personalDetailsForm">
-            <h5>STEP 1 Personal details | Questions 4/4</h5>
-            <h5>Prompt</h5>
-            <div class="border">
-                <fieldset>
-                    <label for="firstName">Your name</label> <br>
-                    <input type="text" name="firstName" id="firstName" /><br>
-                    <label for="surname">Surname</label> <br>
-                    <input type="text" name="surname" id="surname" /><br>
-                    <label for="age">Age</label> <br>
-                    <input type="text" name="age" id="age" /><br>
-                    <label for="gender">Gender</label> <br>
-                    <input type="text" name="gender" id="gender" /><br>
-                    <label for="privacyAgreement">Agree with privacy terms</label> <br>
-                    <input type="text" name="privacyAgreement" id="privacyAgreement" /><br>
-                </fieldset>
+      <button name="start">Start</button>
+      <form class="box1" id="personalDetailsForm">
+        <h5>STEP 1 Personal details | Questions 4/4</h5>
+        <h5>Prompt</h5>
+        <div class="border">
+          <fieldset>
+            <div>
+              <label for="firstName">Your name</label><br />
+              <input type="text" name="firstName" id="firstName" /><br />
             </div>
-            <button name="Next">Next</button>
-            <button name="Skip">Skip</button>
-        </form>
-    <div class="progress">
+            <div>
+              <label for="surname">Surname</label><br />
+              <input type="text" name="surname" id="surname" /><br />
+            </div>
+            <div>
+              <label for="age">Age</label><br />
+              <input type="text" name="age" id="age" /><br />
+            </div>
+            <div>
+              <label for="gender">Gender</label><br />
+              <input type="text" name="gender" id="gender" /><br />
+            </div>
+            <div>
+              <label for="privacyAgreement3">Agree with privacy terms</label
+              ><br />
+              <input
+                type="text"
+                name="privacyAgreement"
+                id="privacyAgreement3"
+              /><br />
+            </div>
+          </fieldset>
+        </div>
+        <button name="Next">Next</button>
+        <button name="Skip">Skip</button>
+      </form>
+      <div class="progress">
         <form class="no-border">
-            <label for="profile">Profile completed <span id="progressPercentage">30%</span> </label>
-            <progress id="progressBar" value="30" max="100"></progress>
+          <label
+            >Profile completed
+            <span class="progressPercentage">99%</span></label
+          >
+          <progress id="progressBar" value="90" max="100"></progress>
         </form>
+      </div>
+      <div class="OUTPUT">
+        <ul id="outputList"></ul>
+      </div>
     </div>
-    <div class="OUTPUT">
-        <ul id="outputList">
-       
-    </ul>
-    </div>
-    </div>
-
 
     <script>
-       
-        document.getElementById('personalDetailsForm').addEventListener('submit', function (event) {
-            event.preventDefault(); 
+      document
+        .getElementById("personalDetailsForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-            
-            var firstName = document.getElementById('firstName').value;
-            var surname = document.getElementById('surname').value;
-            var age = document.getElementById('age').value;
-            var gender = document.getElementById('gender').value;
-            var privacyAgreement = document.getElementById('privacyAgreement').value;
+          var firstName = document.getElementById("firstName").value;
+          var surname = document.getElementById("surname").value;
+          var age = document.getElementById("age").value;
+          var gender = document.getElementById("gender").value;
+          var privacyAgreement =
+            document.getElementById("privacyAgreement").value;
 
-           
-            var outputHTML = "<li>Name: " + firstName + "</li>";
-            outputHTML += "<li>Surname: " + surname + "</li>";
-            outputHTML += "<li>Age: " + age + "</li>";
-            outputHTML += "<li>Gender: " + gender + "</li>";
-            outputHTML += "<li>Agree with privacy terms: " + privacyAgreement + "</li>";
+          var outputHTML = "<li>Name: " + firstName + "</li>";
+          outputHTML += "<li>Surname: " + surname + "</li>";
+          outputHTML += "<li>Age: " + age + "</li>";
+          outputHTML += "<li>Gender: " + gender + "</li>";
+          outputHTML +=
+            "<li>Agree with privacy terms: " + privacyAgreement + "</li>";
 
-            
-            document.getElementById('outputList').innerHTML = outputHTML;
+          document.getElementById("outputList").innerHTML = outputHTML;
         });
     </script>
     <div class="container1">
-        <button name="start">Start</button>
-        <form class="box1" id="volunteeringForm">
-            <h5>STEP 2 Volunteering tasks | Question 5/5</h5>
-            <h5>Prompt</h5>
-            <div class="border">
-                <fieldset>
-                    <label for="question1">Previous experience</label> <br>
-                    <input type="text" name="question1" id="question1" /><br>
-                    <label for="question2">Skills?</label> <br>
-                    <input type="text" name="question2" id="question2" /><br>
-                    <label for="question3">Task</label> <br>
-                    <input type="text" name="question3" id="question3" /><br>
-                    <label for="question4">Place</label> <br>
-                    <input type="text" name="question4" id="question4" /><br>
-                    <label for="question5">Assignment type</label> <br>
-                    <input type="text" name="question5" id="question5" /><br>
-                </fieldset>
+      <button name="start">Start</button>
+      <form class="box1" id="volunteeringForm">
+        <h5>STEP 2 Volunteering tasks | Question 5/5</h5>
+        <h5>Prompt</h5>
+        <div class="border">
+          <fieldset>
+            <div>
+              <label for="question1">Previous experience</label><br />
+              <input type="text" name="question1" id="question1" /><br />
             </div>
-            <button name="Next">Next</button>
-            <button name="Skip">Skip</button>
-        </form>
-    <div class="box2">
+            <div>
+              <label for="question2">Skills?</label><br />
+              <input type="text" name="question2" id="question2" /><br />
+            </div>
+            <div>
+              <label for="question3">Task</label><br />
+              <input type="text" name="question3" id="question3" /><br />
+            </div>
+            <div>
+              <label for="question4">Place</label><br />
+              <input type="text" name="question4" id="question4" /><br />
+            </div>
+            <div>
+              <label for="question5">Assignment type</label><br />
+              <input type="text" name="question5" id="question5" /><br />
+            </div>
+          </fieldset>
+        </div>
+        <button name="Next">Next</button>
+        <button name="Skip">Skip</button>
+      </form>
+      <div class="box2">
         <form class="no-border">
-            <label for="profile">Profile completed 66% </label>
-            <input type="range" id="percentage" name="percentage" value="66" min="0" max="100" step="10"><br>
+          <label
+            >Profile completed
+            <span class="progressPercentage">66%</span></label
+          >
+          <input
+            type="range"
+            id="percentage"
+            name="percentage"
+            value="66"
+            min="0"
+            max="100"
+            step="10"
+          /><br />
         </form>
         <div class="OUTPUT">
-            <ul id="outputList2">
-            </ul>
+          <ul id="outputList2"></ul>
         </div>
-    </div>
+      </div>
     </div>
 
     <script>
-        document.getElementById('volunteeringForm').addEventListener('submit', function (event) {
-            event.preventDefault();
+      document
+        .getElementById("volunteeringForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-            var question1 = document.getElementById('question1').value;
-            var question2 = document.getElementById('question2').value;
-            var question3 = document.getElementById('question3').value;
-            var question4 = document.getElementById('question4').value;
-            var question5 = document.getElementById('question5').value;
+          var question1 = document.getElementById("question1").value;
+          var question2 = document.getElementById("question2").value;
+          var question3 = document.getElementById("question3").value;
+          var question4 = document.getElementById("question4").value;
+          var question5 = document.getElementById("question5").value;
 
-            var outputHTML = "<li>What brings you to this cause: " + question1 + "</li>";
-            outputHTML += "<li>Skills: " + question2 + "</li>";
-            outputHTML += "<li>Task: " + question3 + "</li>";
-            outputHTML += "<li>Place: " + question4 + "</li>";
-            outputHTML += "<li>Assignment type: " + question5 + "</li>";
+          var outputHTML =
+            "<li>What brings you to this cause: " + question1 + "</li>";
+          outputHTML += "<li>Skills: " + question2 + "</li>";
+          outputHTML += "<li>Task: " + question3 + "</li>";
+          outputHTML += "<li>Place: " + question4 + "</li>";
+          outputHTML += "<li>Assignment type: " + question5 + "</li>";
 
-            document.getElementById('outputList2').innerHTML = outputHTML;
+          document.getElementById("outputList2").innerHTML = outputHTML;
         });
     </script>
     <div class="container1">
-        <button name="start">Start</button>
-        <form class="box1" id="personalDetailsForm">
-            <h5>STEP 1 Personal details | Questions 4/4</h5>
-            <h5>Prompt</h5>
-            <div class="border">
-                <fieldset>
-                    <label for="firstName">Feild of Study</label> <br>
-                    <input type="text" name="firstName" id="firstName" /><br>
-                    <label for="surname">Highest Degree</label> <br>
-                    <input type="text" name="surname" id="surname" /><br>
-                    <label for="age">University/Institution</label> <br>
-                    <input type="text" name="age" id="age" /><br>
-                    <label for="gender">completion year</label> <br>
-                    <input type="text" name="gender" id="gender" /><br>
-                    <label for="privacyAgreement">Country</label> <br>
-                    <input type="text" name="privacyAgreement" id="privacyAgreement" /><br>
-                </fieldset>
+      <button name="start">Start</button>
+      <form class="box1">
+        <h5>STEP 1 Personal details | Questions 4/4</h5>
+        <h5>Prompt</h5>
+        <div class="border">
+          <fieldset>
+            <div>
+              <label for="firstName1">Field of Study</label><br />
+              <input type="text" name="firstName" id="firstName1" /><br />
             </div>
-            <button name="Next">Next</button>
-            <button name="Skip">Skip</button>
-        </form>
-    <div class="progress">
+            <div>
+              <label for="surname2">Highest Degree</label><br />
+              <input type="text" name="surname" id="surname2" /><br />
+            </div>
+            <div>
+              <label for="age3">University/Institution</label><br />
+              <input type="text" name="age" id="age3" /><br />
+            </div>
+            <div>
+              <label for="gender4">Completion Year</label><br />
+              <input type="text" name="gender" id="gender4" /><br />
+            </div>
+            <div>
+              <label for="privacyAgreement1">Country</label><br />
+              <input
+                type="text"
+                name="privacyAgreement"
+                id="privacyAgreement1"
+              /><br />
+            </div>
+          </fieldset>
+        </div>
+
+        <button name="Next">Next</button>
+        <button name="Skip">Skip</button>
+      </form>
+      <div class="progress">
         <form class="no-border">
-            <label for="profile">Profile completed <span id="progressPercentage">99%</span> </label>
-            <progress id="progressBar" value="90" max="100"></progress>
+          <label
+            >Profile completed
+            <span class="progressPercentage">99%</span></label
+          >
+          <progress id="progressBar1" value="90" max="100"></progress>
         </form>
-    </div>
-    <div class="OUTPUT">
-        <ul id="outputList">
-       
-    </ul>
-    </div>
+      </div>
+      <div class="OUTPUT">
+        <ul id="outputList4"></ul>
+      </div>
     </div>
 
     <script>
-       
-        document.getElementById('personalDetailsForm').addEventListener('submit', function (event) {
-            event.preventDefault(); 
+      document;
+      document
+        .getElementById("personalDetailsForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-            
-            var firstName = document.getElementById('firstName').value;
-            var surname = document.getElementById('surname').value;
-            var age = document.getElementById('age').value;
-            var gender = document.getElementById('gender').value;
-            var privacyAgreement = document.getElementById('privacyAgreement').value;
+          var firstName = document.getElementById("firstName").value;
+          var surname = document.getElementById("surname").value;
+          var age = document.getElementById("age").value;
+          var gender = document.getElementById("gender").value;
+          var privacyAgreement =
+            document.getElementById("privacyAgreement").value;
 
-           
-            var outputHTML = "<li>Name: " + firstName + "</li>";
-            outputHTML += "<li>Surname: " + surname + "</li>";
-            outputHTML += "<li>Age: " + age + "</li>";
-            outputHTML += "<li>Gender: " + gender + "</li>";
-            outputHTML += "<li>Agree with privacy terms: " + privacyAgreement + "</li>";
+          var outputHTML = "<li>Name: " + firstName + "</li>";
+          outputHTML += "<li>Surname: " + surname + "</li>";
+          outputHTML += "<li>Age: " + age + "</li>";
+          outputHTML += "<li>Gender: " + gender + "</li>";
+          outputHTML +=
+            "<li>Agree with privacy terms: " + privacyAgreement + "</li>";
 
-            
-            document.getElementById('outputList').innerHTML = outputHTML;
+          document.getElementById("outputList").innerHTML = outputHTML;
         });
     </script>
-</body>
-
-</html>  
-
-
+  </body>
+</html>
